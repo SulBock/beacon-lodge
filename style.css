@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: darkgoldenrod;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    top: auto;
+    left: 0;
+}
+
+p{
+    margin: auto;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: none;
+    color: #000;
+
+}
+
+.nav ul{
+    width: 100px;
+    top: 0;
+    list-style: none;
+    display: inline;
+    padding-top: 100%;
+}
+
+.nav li a{
+    top: 0;
+    float: left;
+    text-decoration: none;
+    color: #000;
+    padding: 0px 40px;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+    display: block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0 4s;
+}
+
+.nav li a:hover{
+    background-color: whitesmoke;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
